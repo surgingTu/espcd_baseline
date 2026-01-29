@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: vggt
+Version: 0.0.1
+Requires-Dist: torch
+Requires-Dist: torchvision
+Dynamic: requires-dist

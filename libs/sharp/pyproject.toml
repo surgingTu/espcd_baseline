@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sharp"
+version = "0.1.0"
+description = "SHARP model utilities and CLI"
+readme = ""
+requires-python = ">=3.9"
+license = { text = "Proprietary" }
+authors = [{ name = "Apple Inc." }]
+
+# 依赖这里先不强行写死，避免与你环境实际版本冲突；如果你希望我也补齐依赖清单，告诉我你的运行环境即可。
+dependencies = []
+
+[project.scripts]
+sharp = "sharp.cli:main_cli"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["sharp*"]
+
+
