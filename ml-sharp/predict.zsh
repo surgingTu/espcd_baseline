@@ -1,0 +1,1 @@
+sharp predict -i ./images -o ./gaussians

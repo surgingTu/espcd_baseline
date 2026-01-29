@@ -1,0 +1,1 @@
+sharp render -i ./gaussians -o ./renderings

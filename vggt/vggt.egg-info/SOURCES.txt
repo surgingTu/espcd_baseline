@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+vggt.egg-info/PKG-INFO
+vggt.egg-info/SOURCES.txt
+vggt.egg-info/dependency_links.txt
+vggt.egg-info/requires.txt
+vggt.egg-info/top_level.txt
